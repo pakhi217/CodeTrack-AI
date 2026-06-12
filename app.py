@@ -546,7 +546,7 @@ def chart_topic_bar(df: pd.DataFrame) -> go.Figure:
     fig = px.bar(
         counts, x="count", y="topic", orientation="h",
         color="count",
-        color_continuous_scale=[[0, PALETTE["accent"]+"55"], [1, PALETTE["accent"]]],
+        color_continuous_scale=[[0, "rgba(108,99,255,0.3)"], [1, "#6C63FF"]],
         labels={"count": "Problems", "topic": ""},
         title="Problems by Topic",
     )
@@ -575,7 +575,10 @@ def chart_difficulty_pie(df: pd.DataFrame) -> go.Figure:
     )
     fig.update_layout(**CHART_LAYOUT, height=360,
                       showlegend=True,
-                      legend=dict(orientation="h", yanchor="bottom", y=-0.2, x=0.3))
+                      legend_orientation="h",
+                      legend_yanchor="bottom",
+                      legend_y=-0.2,
+                      legend_x=0.3)
     return fig
 
 
@@ -594,7 +597,7 @@ def chart_progress_line(df: pd.DataFrame) -> go.Figure:
     fig.add_trace(go.Bar(
         x=daily["date"], y=daily["count"],
         name="Daily Solved",
-        marker_color=PALETTE["accent"] + "66",
+        marker_color="rgba(108,99,255,0.4)",
         marker_line_width=0,
     ), secondary_y=False)
     fig.add_trace(go.Scatter(
@@ -605,9 +608,9 @@ def chart_progress_line(df: pd.DataFrame) -> go.Figure:
         marker=dict(size=5, color=PALETTE["green"]),
     ), secondary_y=True)
     fig.update_layout(**CHART_LAYOUT, title="Progress Over Time", height=360,
-                      xaxis=dict(gridcolor=PALETTE["border"]),
-                      yaxis=dict(gridcolor=PALETTE["border"], title="Daily"),
-                      yaxis2=dict(title="Cumulative", gridcolor="transparent"))
+                      xaxis=dict(gridcolor="rgba(0,0,0,0)"),
+                      yaxis=dict(gridcolor="rgba(0,0,0,0)", title="Daily"),
+                      yaxis2=dict(title="Cumulative", gridcolor="rgba(0,0,0,0)"))
     return fig
 
 
@@ -630,7 +633,7 @@ def chart_accuracy_by_topic(stats: dict) -> go.Figure:
     ))
     fig.update_layout(**CHART_LAYOUT, title="Accuracy by Topic (%)", height=420,
                       xaxis=dict(range=[0, 120], gridcolor=PALETTE["border"]),
-                      yaxis=dict(gridcolor="transparent"))
+                      yaxis=dict(gridcolor="rgba(0,0,0,0)"))
     return fig
 
 
@@ -1095,9 +1098,9 @@ def page_readiness():
                 "bgcolor": PALETTE["border"],
                 "borderwidth": 0,
                 "steps": [
-                    {"range": [0, 30],  "color": PALETTE["red"]   + "33"},
-                    {"range": [30, 65], "color": PALETTE["medium"]+ "33"},
-                    {"range": [65, 100],"color": PALETTE["green"] + "33"},
+                    {"range": [0, 30],  "color": "rgba(255,77,109,0.2)"},
+                    {"range": [30, 65], "color": "rgba(255,179,71,0.2)"},
+                    {"range": [65, 100],"color": "rgba(0,212,170,0.2)"},
                 ],
                 "threshold": {
                     "line": {"color": PALETTE["green"], "width": 3},

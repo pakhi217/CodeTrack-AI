@@ -1,0 +1,51 @@
+problem_name,topic,difficulty,status,time_taken,date_solved
+Two Sum,Arrays,Easy,Solved,12,2024-01-05
+Valid Parentheses,Stacks,Easy,Solved,18,2024-01-06
+Merge Two Sorted Lists,Linked Lists,Easy,Solved,22,2024-01-07
+Best Time to Buy and Sell Stock,Arrays,Easy,Solved,15,2024-01-08
+Maximum Subarray,Dynamic Programming,Easy,Solved,25,2024-01-09
+Binary Search,Binary Search,Easy,Solved,10,2024-01-10
+Climbing Stairs,Dynamic Programming,Easy,Solved,20,2024-01-11
+Reverse Linked List,Linked Lists,Easy,Solved,16,2024-01-12
+Flood Fill,Graphs,Easy,Solved,28,2024-01-13
+Symmetric Tree,Trees,Easy,Solved,19,2024-01-14
+3Sum,Arrays,Medium,Solved,42,2024-01-15
+Longest Substring Without Repeating Characters,Sliding Window,Medium,Solved,35,2024-01-16
+Container With Most Water,Two Pointers,Medium,Solved,38,2024-01-17
+Coin Change,Dynamic Programming,Medium,Solved,55,2024-01-18
+Number of Islands,Graphs,Medium,Solved,47,2024-01-19
+Binary Tree Level Order Traversal,Trees,Medium,Solved,32,2024-01-20
+Search in Rotated Sorted Array,Binary Search,Medium,Solved,40,2024-01-21
+Add Two Numbers,Linked Lists,Medium,Solved,29,2024-01-22
+Word Search,Backtracking,Medium,Not Solved,60,2024-01-23
+Combination Sum,Backtracking,Medium,Solved,51,2024-01-24
+Merge Intervals,Arrays,Medium,Solved,37,2024-01-25
+Product of Array Except Self,Arrays,Medium,Solved,33,2024-01-26
+Top K Frequent Elements,Heaps,Medium,Solved,45,2024-01-27
+Find Minimum in Rotated Sorted Array,Binary Search,Medium,Not Solved,50,2024-01-28
+LRU Cache,Design,Medium,Solved,70,2024-01-29
+Word Break,Dynamic Programming,Medium,Not Solved,65,2024-01-30
+Course Schedule,Graphs,Medium,Solved,55,2024-02-01
+Pacific Atlantic Water Flow,Graphs,Medium,Not Solved,58,2024-02-02
+Longest Palindromic Substring,Dynamic Programming,Medium,Solved,48,2024-02-03
+House Robber,Dynamic Programming,Medium,Solved,30,2024-02-04
+Trapping Rain Water,Two Pointers,Hard,Solved,75,2024-02-05
+Median of Two Sorted Arrays,Binary Search,Hard,Not Solved,90,2024-02-06
+Word Ladder,Graphs,Hard,Solved,85,2024-02-07
+Serialize and Deserialize Binary Tree,Trees,Hard,Not Solved,95,2024-02-08
+N-Queens,Backtracking,Hard,Solved,80,2024-02-09
+Longest Consecutive Sequence,Arrays,Medium,Solved,42,2024-02-10
+Minimum Window Substring,Sliding Window,Hard,Not Solved,88,2024-02-11
+Edit Distance,Dynamic Programming,Hard,Solved,72,2024-02-12
+Alien Dictionary,Graphs,Hard,Not Solved,100,2024-02-13
+Maximum Profit in Job Scheduling,Dynamic Programming,Hard,Solved,95,2024-02-14
+Sliding Window Maximum,Heaps,Hard,Solved,78,2024-02-15
+Design Twitter,Design,Medium,Solved,65,2024-02-16
+Kth Largest Element in Array,Heaps,Medium,Solved,28,2024-02-17
+Task Scheduler,Heaps,Medium,Not Solved,55,2024-02-18
+Decode Ways,Dynamic Programming,Medium,Solved,40,2024-02-19
+Spiral Matrix,Arrays,Medium,Solved,35,2024-02-20
+Jump Game,Greedy,Medium,Solved,30,2024-02-21
+Gas Station,Greedy,Medium,Not Solved,52,2024-02-22
+Meeting Rooms II,Heaps,Medium,Solved,38,2024-02-23
+Rotate Image,Arrays,Medium,Solved,25,2024-02-24
