@@ -6,10 +6,12 @@
 
 ## 📸 Screenshots
 
-| Dashboard | Analytics | Readiness Score |
-|-----------|-----------|-----------------|
-| *(See `screenshots/` folder after running)* | | |
+### 📊 Dashboard
+<img width="1280" height="601" alt="image" src="https://github.com/user-attachments/assets/caf2dee9-3cb4-4577-9e71-5f07daf4e05e" />
+### Analysis
+<img width="1280" height="597" alt="image" src="https://github.com/user-attachments/assets/277d447f-fee8-4b80-93a2-a7d71d1b8401" />
 
+ 
 ---
 
 ## 🚀 Features
