@@ -153,9 +153,10 @@ Core topics: Arrays, Dynamic Programming, Graphs, Trees, Linked Lists, Binary Se
 
 ---
 
-## 🤝 Contributing
+## Author
 
-Pull requests welcome. For major changes, open an issue first.
+Pakhi Saxena
+B.Tech Electronics & Communication Engineering (ECE)
 
 ---
 
